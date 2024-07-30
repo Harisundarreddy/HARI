@@ -6,7 +6,6 @@ from rest_framework.views import APIView
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.pagination import PageNumberPagination
 from .serializers import UserSerializer
-# from .permissions import IsAuthenticatedOrCreate
 
 # Create your views here.
 
